@@ -1,0 +1,65 @@
+.encabezado{
+	height: 100px;
+	background-color: #0d7223;
+}
+.logo{
+	height: 90px;
+	margin: 5px 15px;
+}
+.titulo{
+	font-size: 50px;
+	color: white;
+	margin-top: 10px;
+	text-align: center;
+}
+.redes{
+	margin-top: 60px;
+	text-align: right;
+}
+.logo-redes{
+	height: 30px;
+	padding: 3px;
+	margin-right: 10px;
+}
+.barra{
+	background-color: #0d7223;
+}
+.nav-item{
+	padding-left: 50px;
+}
+.boton{
+	color: white;
+}
+.article{
+	height: 40vh;
+	padding-left: 15px;
+}
+.article-title{
+	font-size: 18px;
+	font-weight: bolder;
+	color: black;
+	padding-left: 20px;
+	padding-top: 10px;
+	background: #f8f9d7;
+	height: 40px;
+	margin-left: 5px;
+}
+.article-img{
+	padding-top: 10px;
+	height: 50vh;
+	padding-left: 5px;
+}
+.image{
+	width: 100%;
+	height: 75%;
+	border-radius: 20px;
+}
+.article-text{
+	padding-left: 20px;
+	background: #f8f9d7;
+	margin-left: 5px;
+}
+.comentario{
+	padding-left: 5px;
+	padding-top: 5px;
+}
