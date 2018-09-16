@@ -25,7 +25,7 @@
 	background-color: #0d7223;
 }
 .nav-item{
-	padding-left: 50px;
+	padding-left: 150px;
 }
 .boton{
 	color: white;
@@ -61,5 +61,20 @@
 }
 .comentario{
 	padding-left: 5px;
+	padding-top: 5px;
+}
+.buscador{
+	padding-left: 15px;
+	padding-top: 5px;
+}
+.contenedor{
+	background: #f8f9d7;
+	height: 100vh;
+}
+.espacio{
+	width: 40px;
+}
+.eleccion{
+	padding-left: 15px;
 	padding-top: 5px;
 }
