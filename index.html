@@ -12,8 +12,8 @@
 	<link rel="stylesheet" type="text/css" href="css/estilos_personalizados.css">
 </head>
 <body>
+	<div class="container">
 	<header>
-		<div class="container">
 			<div class="row encabezado">
 				<div class="col-lg-3">
 					<img src="img/Logo.png" title="Logo" alt="Logo blog musical" class="logo">
@@ -39,28 +39,90 @@
 					<div class="collapse navbar-collapse" id="navbarNav">
 						<ul class="navbar-nav">
 							<li class="nav-item">
-								<a class="nav-link boton" href="#">Inicio</a>
+								<a class="nav-link boton" href="#">INICIO</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link boton" href="#">Artistas</a>
+								<a class="nav-link boton" href="#">ARTISTAS</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link boton" href="#">Grupos</a>
+								<a class="nav-link boton" href="#">GRUPOS</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link boton" href="#">Top 10</a>
+								<a class="nav-link boton" href="#">TOP 10</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link boton" href="#">Letras</a>
+								<a class="nav-link boton" href="#">LETRAS</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link boton" href="#">Acordes</a>
+								<a class="nav-link boton" href="#">ACORDES</a>
 							</li>
 						</ul>
 					</div>
 				</nav>
 			</div>
-		</div>
 	</header>
+			<div class="row">
+				<div class="col-lg-9">
+					<div class="row article">
+						<div class="col-lg-9">
+							<div class="row article-title text-center">El fenómeno que arrasa en el mundo: el reggaetón, ¿por qué?</div>
+							<div class="row article-text text-justify">No es solo 'Despacito': el reguetón se está convirtiendo en un fenómeno mundial. "Es el género de música que frecuentemente encabeza las listas a nivel global", dice Spotify.<br><br>
+
+							El número de personas que escuchan reggaetón en Spotify ha crecido un 119% desde 2014 a 2017, según cifras de la plataforma. Por su parte, el número de escuchas pop ha crecido solo un 13% en el mismo periodo.<a href="#">Leer mas...</a></div>
+						</div>
+						<div class="col-lg-3">
+							<img class="article-img" src="img/reggaeton.jpg" title="Reggaetón" alt="Reggaetón">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<textarea class="form-control" rows="3" id="comentarios" placeholder="Deja tu comentario..."></textarea>
+							<button type="button" class="btn btn-info btn-sm">Enviar</button>
+						</div>
+					</div>
+					<div class="row article">
+						<div class="col-lg-3">
+							<img class="article-img" src="img/avicci.jpg" title="Electrónica" alt="Electrónica">
+						</div>
+						<div class="col-lg-9">
+							<div class="row article-title text-center">Avicii: la huella de una estrella fugaz de la electrónica</div>
+							<div class="row article-text text-justify">Aunque la noticia de la muerte del reconocido DJ sueco Avicii, el viernes pasado, sorprendió en medios de todo el mundo por la corta edad del artista (28 años), en su círculo más íntimo ya se intuía desde hace un par de años un posible desenlace trágico.<br><br>
+
+							Ya en el 2014 se le manifestó una pancreatitis aguda que lo condujo a interrumpir una de sus giras y someterse de inmediato a una cirugía urgente de extirpación de la vesícula y el apéndice. ¿El motivo? la ingesta pronunciada de alcohol.<a href="#">Leer mas...</a></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<textarea class="form-control" rows="3" id="comentarios" placeholder="Deja tu comentario..."></textarea>
+							<button type="button" class="btn btn-info btn-sm">Enviar</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="row">
+       					<div class="col-lg-10 buscador">
+                    		<input type="text" class="form-control" placeholder="Buscar"/>
+                		</div>
+                		<div class="col-lg-2 buscador">
+                			<button class="btn btn-info btn-lg icono" type="button">
+                				<img src="img/buscar.svg" class="lupa">
+                    		</button>
+                    	</div>
+            		</div>
+        			<div class="row eleccion">
+						<form class="form-inline">
+  							<label class="my-1 mr-2" for="inlineFormCustomSelectPref">Opciones de búsqueda</label>
+  							<select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+    							<option selected>Elegir...</option>
+    							<option value="1">Inicio</option>
+    							<option value="2">Grupos</option>
+    							<option value="3">Top 10</option>
+    							<option value="4">Letras</option>
+    							<option value="5">Acordes</option>
+  							</select>
+  						</form>
+					</div>
+				</div>
+			</div>
 </body>
 </html>
